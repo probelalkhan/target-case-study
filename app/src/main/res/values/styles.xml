@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="text_default" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_default</item>
+    </style>
+
+    <style name="text_title" parent="text_default">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_small" parent="text_default">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_big" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_default</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_default">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/button_default_background</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="text_circle" parent="text_default">
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

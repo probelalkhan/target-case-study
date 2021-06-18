@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@color/red_color</color>
+  <color name="colorPrimaryDark">#AA0000</color>
+  <color name="colorAccent">#008300</color>
+
+  <color name="gray_color">#666666</color>
+  <color name="red_color">#cc0000</color>
+  <color name="text_default">#404040</color>
+  <color name="text_red">#cc0000</color>
+  <color name="text_light">#999999</color>
+  <color name="button_default_background">#e0e0e0</color>
+  <color name="text_white">#ffffff</color>
+</resources>
